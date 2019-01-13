@@ -2,6 +2,9 @@
 
 nav {
     background-color: mediumturquoise;
+    -webkit-box-shadow: 0 4px 4px -2px lightgray;
+    -moz-box-shadow: 0 4px 4px -2px lightgray;
+         box-shadow: 0 4px 4px -2px  lightgray;
 }
 
 .navbar-brand {
@@ -39,6 +42,11 @@ a:hover {
     font-weight: bold;
 }
 
+#about a:hover {
+    color: turquoise;
+    font-weight: bold;
+}
+
 #about-mobile span {
     margin-left: 40px;
 }
@@ -66,6 +74,10 @@ hr {
 #project-links a {
     color: mediumturquoise;
     font-weight: bold;
+}
+
+#project-links a:hover {
+    color: turquoise;
 }
 
 /* projects */
