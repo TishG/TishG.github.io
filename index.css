@@ -14,13 +14,17 @@ nav a {
 
 /* about */
 
-.about p {
+.myParagraphs p, .myParagraphs li {
     font-size: 18px;
     line-height: 30px;
 }
 
-.about span {
+.myParagraphs span {
     margin-left: 40px;
     margin-top: 20px;
 }
 /* about */
+
+/* what I do */
+
+/* what I do */
