@@ -27,4 +27,9 @@ nav a {
 
 /* what I do */
 
+#projects li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
 /* what I do */
