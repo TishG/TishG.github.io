@@ -1,5 +1,9 @@
 /* navbar */
 
+nav {
+    background-color: mediumturquoise;
+}
+
 .navbar-brand {
     font-size: 2em;
     word-spacing: -2.5px;
@@ -8,6 +12,12 @@
 nav a {
     font-size: 20px;
     margin-right: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    font-weight: bold !important;
+    text-decoration: none;
 }
 
 /* navbar */
@@ -23,9 +33,27 @@ nav a {
     margin-left: 40px;
     margin-top: 20px;
 }
+
+#about a {
+    color: mediumturquoise;
+    font-weight: bold;
+}
+
+#about-mobile span {
+    margin-left: 40px;
+}
+
 /* about */
 
 /* what I do */
+
+#what-I-do {
+    background-color: whitesmoke;
+}
+
+hr {
+    width: 75%;
+}
 
 #projects li {
     list-style-type: none;
@@ -33,3 +61,23 @@ nav a {
 }
 
 /* what I do */
+
+/* projects */
+#project-links a {
+    color: mediumturquoise;
+    font-weight: bold;
+}
+
+/* projects */
+
+/* contact/footer */
+
+footer {
+    background-color: mediumturquoise;
+}
+
+footer p {
+    color: black;
+}
+
+/* contact/footer */
