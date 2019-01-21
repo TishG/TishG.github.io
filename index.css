@@ -63,14 +63,15 @@ hr {
     width: 75%;
 }
 
+/* what I do */
+
+/* projects */
+
 #projects li {
     list-style-type: none;
     font-size: 18px;
 }
 
-/* what I do */
-
-/* projects */
 #project-links a {
     color: mediumturquoise;
     font-weight: bold;
